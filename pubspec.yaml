@@ -1,0 +1,86 @@
+name: adbot
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 2.0.0+10
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: ^5.5.4
+  get: ^4.6.5
+  flutter_svg:
+  logger: ^1.1.0
+  http: ^0.13.4
+  get_storage:
+  google_fonts:
+  simple_animations: ^5.0.0+3
+  flutter_spinkit: ^5.1.0
+  speech_to_text: ^6.1.1
+  flutter_tts: ^3.6.3
+  animator: ^3.2.0
+  firebase_auth: ^4.2.5
+  google_mobile_ads: ^2.3.0
+  google_sign_in: ^5.4.3
+  saver_gallery: ^1.0.5
+  permission_handler: ^10.2.0
+  device_info_plus: ^8.0.0
+  dio:
+  share_plus: ^6.3.0
+  cloud_firestore: ^4.3.1
+  webview_flutter: ^3.0.0
+  http_auth:
+  flutter_stripe: ^7.0.0
+  firebase_messaging: ^14.2.1
+  flutter_local_notifications: ^9.1.4
+  purchases_flutter: ^4.9.1
+  modal_progress_hud_nsn: ^0.3.0
+
+dev_dependencies:
+
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+  change_app_package_name: ^1.1.0
+  #  flutter pub run change_app_package_name:main com.new.package.name
+      # ^^ RUN this command for change package name ^^
+
+  flutter_app_name: ^0.1.1
+  #  flutter pub run flutter_app_name
+      # ^^ RUN this command for change appName name ^^  first ensure name is written bello
+flutter_app_name:
+  name: "AdBot"   # >> Set AppName First
+
+  flutter_launcher_icons:
+  #flutter pub run flutter_launcher_icons:main
+      # ^^ RUN this command for change launcher_icon ^^
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/Logo/app_launcher.png"    # >> Set AppIcon Path First
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/Logo/
+    - assets/icon/
+    - assets/icon/chat.png
+
+
+  fonts:
+    - family: Cocogoose Pro-trial
+      fonts:
+        - asset: assets/cocogo/Cocogoose Pro-trial.ttf
